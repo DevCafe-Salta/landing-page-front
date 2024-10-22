@@ -1,13 +1,12 @@
 // import { useState } from 'react'
 import './App.css'
+import Navbar from './components/Navbar/Navbar.tsx'
 
 function App() {
 
   return (
     <>
-    <h1 className="text-8xl font-bold underline">
-      ¡Hola mundo!
-    </h1>
+    <Navbar/>
     </>
   )
 }
