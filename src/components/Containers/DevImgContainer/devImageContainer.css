@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 300px) and (max-width:768px){
+    #dev-img-container img{
+        @apply relative;
+        @apply w-10;
+        @apply h-10;
+        @apply rounded-full;
+    }
+
+    #dev-img-container #overlay {
+        @apply relative;
+        @apply py-2;
+        @apply -left-[88px];
+        @apply min-w-10;
+        @apply h-10;
+        @apply bg-black;
+        @apply opacity-[50%];
+        @apply rounded-full;
+    }
+
+    #dev-img-container p {
+        @apply relative;
+        @apply z-[60];
+        @apply -left-[118px];
+        @apply text-center;
+        @apply text-[12px];
+        @apply text-white;
+        @apply font-medium;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    
+    #dev-img-container img{
+        @apply relative;
+        @apply w-10;
+        @apply h-10;
+        @apply rounded-full;
+    }
+
+    #dev-img-container #overlay {
+        @apply relative;
+        @apply -left-[88px];
+        @apply py-2;
+        @apply min-w-10;
+        @apply h-10;
+        @apply bg-black;
+        @apply opacity-50;
+        @apply rounded-full;
+    }
+
+    #dev-img-container #overlay img {
+        @apply relative;
+        @apply bottom-[8px];
+        @apply from-black;
+    }
+
+    #dev-img-container p {
+        @apply relative;
+        @apply -left-[115px];
+        @apply z-[60];
+        @apply text-center;
+        @apply text-[12px];
+        @apply text-white;
+        @apply font-medium;
+    }
+
+}
+
+@media (min-width:1024px){
+    #dev-img-container img{
+        @apply relative;
+        @apply w-10;
+        @apply h-10;
+        @apply rounded-full;
+    }
+
+    #dev-img-container #overlay {
+        @apply relative;
+        @apply z-[60];
+        @apply py-2;
+        @apply -left-[88px];
+        @apply min-w-10;
+        @apply h-10;
+        @apply bg-black;
+        @apply opacity-[50%];
+        @apply rounded-full;
+    }
+
+    #dev-img-container p {
+        @apply relative;
+        @apply z-[60];
+        @apply -left-[118px];
+        @apply text-center;
+        @apply text-[12px];
+        @apply text-white;
+        @apply font-medium;
+    }
+}
+

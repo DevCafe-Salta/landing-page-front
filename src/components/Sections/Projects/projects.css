@@ -1,0 +1,112 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@media (min-width: 300px) and (max-width:768px){
+    #course-section {
+        @apply w-full;
+        @apply h-max;
+        @apply py-10;
+        @apply bg-[#131414];
+    }
+
+    #course-section #course-head h2 {
+        @apply font-bold;
+        @apply text-[30px];
+        @apply text-[#DB4A2B];
+    }
+
+    #course-section #course-head h3 {
+        @apply text-[16px];
+        @apply text-[#E3E2DD];
+    }
+
+    #course-section #courses {
+        @apply w-[90%];
+        @apply mx-auto;
+        @apply text-center;
+    }
+
+    #course-section #courses #courses-list {
+        @apply w-full;
+        @apply mt-8;
+        @apply flex;
+        @apply flex-col;
+        @apply justify-center;
+        @apply gap-y-8;
+    }    
+}
+
+@media (min-width: 768px) and (max-width:1024px){
+    #course-section {
+        @apply w-full;
+        @apply h-max;
+        @apply py-10;
+        @apply bg-[#131414];
+    }
+
+    #course-section #course-head h2 {
+        @apply font-bold;
+        @apply text-[48px];
+        @apply text-[#DB4A2B];
+    }
+
+    #course-section #course-head h3 {
+        @apply text-[24px];
+        @apply text-[#E3E2DD];
+    }
+
+    #course-section #courses {
+        @apply w-[90%];
+        @apply mx-auto;
+        @apply text-center;
+    }
+
+    #course-section #courses #courses-list {
+        @apply w-full;
+        @apply mt-8;
+        @apply mx-auto;
+        @apply flex;
+        @apply flex-wrap;
+        @apply justify-between;
+        @apply gap-y-4;
+    }
+}
+
+@media (min-width: 1024px){
+    #course-section {
+        @apply w-full;
+        @apply h-max;
+        @apply py-10;
+        @apply bg-[#131414];
+    }
+
+    #course-section #course-head h2 {
+        @apply font-bold;
+        @apply text-[48px];
+        @apply text-[#DB4A2B];
+    }
+
+    #course-section #course-head h3 {
+        @apply text-[24px];
+        @apply text-[#E3E2DD];
+    }
+
+    #course-section #courses {
+        @apply w-[90%];
+        @apply mx-auto;
+        @apply text-center;
+    }
+
+    #course-section #courses #courses-list {
+        @apply w-[95%];
+        @apply mt-8;
+        @apply mx-auto;
+        @apply flex;
+        @apply flex-wrap;
+        @apply justify-between;
+        @apply gap-x-4;
+        @apply gap-y-16;
+    }
+}
