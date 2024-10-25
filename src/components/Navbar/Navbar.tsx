@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
             <div className="flex flex-shrink-0 items-center">
               <img
                 alt="DevCafe"
-                src='/assets/icono-navbar.png'
+                src='/public/assets/logo-navbar.png'
                 className="h-8 w-auto"
               />
             </div>

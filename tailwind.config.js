@@ -39,8 +39,7 @@ export default {
       }
     },
   },
-  plugins: [
-    require('tailwind-scrollbar') // para modificar la scrollbar
-  ],
+  // plugins: [
+  //   require('tailwind-scrollbar') // para modificar la scrollbar
+  // ],
 }
-
