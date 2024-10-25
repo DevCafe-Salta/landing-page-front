@@ -8,7 +8,6 @@
           @apply max-w-[290px];
           @apply mx-auto;
           @apply pb-8;
-          @apply bg-[#212222];
           @apply overflow-x-hidden;
           @apply rounded-[8px];
           @apply drop-shadow-sm;
@@ -55,7 +54,6 @@
       @apply mb-4;
       @apply px-2;
       @apply text-wrap;
-      @apply text-[#BABABA];
       @apply text-[16px];
       @apply text-left;
      }
@@ -72,7 +70,6 @@
       @apply mx-auto;
       @apply m-4;
       @apply py-3;
-      @apply bg-[#3D3D3D];
       @apply flex;
       @apply justify-center;
       @apply items-center;
@@ -100,7 +97,6 @@
      #course-container {
           @apply w-[45%];
           @apply max-w-[300px];
-          @apply bg-[#212222];
           @apply pb-8;
           @apply overflow-x-hidden;
           @apply rounded-[8px];
@@ -144,7 +140,6 @@
       @apply mb-4;
       @apply px-2;
       @apply text-wrap;
-      @apply text-[#BABABA];
       @apply text-[16px];
       @apply text-left;
      }
@@ -161,7 +156,6 @@
       @apply mx-auto;
       @apply m-4;
       @apply py-3;
-      @apply bg-[#3D3D3D];
       @apply flex;
       @apply justify-center;
       @apply items-center;
@@ -190,7 +184,6 @@
     #course-container {
         @apply w-[40%];
         @apply max-w-[290px];
-        @apply bg-[#212222];
         @apply pb-8;
         @apply overflow-x-hidden;
         @apply rounded-[8px];
@@ -235,7 +228,6 @@
     @apply mb-4;
     @apply px-2;
     @apply text-wrap;
-    @apply text-[#BABABA];
     @apply text-[16px];
     @apply text-left;
    }
@@ -252,7 +244,6 @@
     @apply mx-auto;
     @apply m-4;
     @apply py-3;
-    @apply bg-[#3D3D3D];
     @apply flex;
     @apply justify-center;
     @apply items-center;

@@ -8,18 +8,19 @@
         @apply w-full;
         @apply h-max;
         @apply py-10;
-        @apply bg-[#131414];
     }
 
     #course-section #course-head h2 {
-        @apply font-bold;
-        @apply text-[30px];
-        @apply text-[#DB4A2B];
+        @apply text-wrap;
+        @apply text-3xl;
     }
 
     #course-section #course-head h3 {
-        @apply text-[16px];
-        @apply text-[#E3E2DD];
+        @apply w-[80%];
+        @apply mt-4;
+        @apply mx-auto;
+        @apply text-wrap;
+        @apply text-base;
     }
 
     #course-section #courses {
@@ -43,18 +44,17 @@
         @apply w-full;
         @apply h-max;
         @apply py-10;
-        @apply bg-[#131414];
     }
 
     #course-section #course-head h2 {
-        @apply font-bold;
-        @apply text-[48px];
-        @apply text-[#DB4A2B];
+        @apply text-wrap;
+        @apply text-5xl;
     }
 
     #course-section #course-head h3 {
-        @apply text-[24px];
-        @apply text-[#E3E2DD];
+        @apply mt-4;
+        @apply text-wrap;
+        @apply text-[32px];
     }
 
     #course-section #courses {
@@ -79,18 +79,15 @@
         @apply w-full;
         @apply h-max;
         @apply py-10;
-        @apply bg-[#131414];
     }
 
     #course-section #course-head h2 {
-        @apply font-bold;
-        @apply text-[48px];
-        @apply text-[#DB4A2B];
+        @apply text-5xl;
     }
 
     #course-section #course-head h3 {
-        @apply text-[24px];
-        @apply text-[#E3E2DD];
+        @apply text-wrap;
+        @apply text-2xl;
     }
 
     #course-section #courses {
