@@ -1,17 +1,23 @@
 // import { useState } from 'react'
 // import './App.css'
 import Navbar from './components/Navbar/Navbar.tsx'
-// import About from './components/Sections/About/About.tsx'
 import { ThemeProvider } from './context/themeContext';
+import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
+import routes from './routes/routes.tsx';
 
+function AppRoutes() {
+  return useRoutes(routes);
+}
 function App() {
 
   return (
     <>
-    <ThemeProvider>
-    <Navbar/>
-    {/* <About/> */}
-    </ThemeProvider>
+      <ThemeProvider>
+      <Router>
+        <Navbar />
+        <AppRoutes />
+      </Router>
+      </ThemeProvider>
     </>
   )
 }
