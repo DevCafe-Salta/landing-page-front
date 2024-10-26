@@ -11,9 +11,9 @@ type NavigationItem = {
 
 // Lista de navegación con tipo definido
 const navigation: NavigationItem[] = [
-  { name: 'Sobre nosotros', href: '#', current: false },
-  { name: 'Proyectos', href: '#', current: false },
-  { name: 'Eventos', href: '#', current: false },
+  { name: 'Sobre nosotros', href: '#about', current: false },
+  { name: 'Proyectos', href: '#proyecto', current: false },
+  { name: 'Eventos', href: '#eventos', current: false },
   { name: '¡Sumate!', href: '#', current: true },
 ];
 
@@ -41,7 +41,7 @@ const Navbar: React.FC = () => {
             <div className="flex flex-shrink-0 items-center">
               <img
                 alt="DevCafe"
-                src='/public/assets/logo-navbar.png'
+                src='/assets/logo-navbar.png'
                 className="h-8 w-auto"
               />
             </div>
