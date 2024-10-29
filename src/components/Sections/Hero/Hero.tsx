@@ -1,6 +1,6 @@
-import React from 'react';
-import FondoDestok from '../../../../public/assets/images/Destok.gif';
-import Mobile from '../../../../public/assets/images/Mobile.gif';
+// import React from 'react';
+// import FondoDestok from '../../../../public/assets/images/Destok.gif';
+// import Mobile from '../../../../public/assets/images/Mobile.gif';
 import logo from '../../../../public/assets/other-assets/svg/common/dev-cafe-logo.svg';
 
 const Hero = () => {
