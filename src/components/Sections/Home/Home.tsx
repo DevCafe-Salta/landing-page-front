@@ -1,19 +1,21 @@
+import Hero from '../Hero/Hero'
 import About from '../About/About'
 import Projects from '../Projects/Projects'
-import Hero from '../Hero/Hero'
+import HorizontalRule from '../../HorizontalRule/HorizontalRule'
 import { ThemeProvider } from '../../../context/themeContext'
-// import Events from '../Events/Events'
+import { useTheme } from '../../../hooks/useTheme'
 const Home = () => {
+    const {theme} = useTheme();
     return (
-        <div>
-            <ThemeProvider>
+        <ThemeProvider>
+            <div className={!theme ? 'bg-softGray': 'bg-softBlack'}>
                 <Hero/>
                 <About />
+                <HorizontalRule/>
                 <Projects/>
-            </ThemeProvider>
-            {/* <Events/> */}
-            {/* <Projects /> */}
-        </div>
+                <HorizontalRule/>
+            </div>
+        </ThemeProvider>
     )
 }
 export default Home

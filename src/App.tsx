@@ -1,5 +1,3 @@
-// import { useState } from 'react'
-// import './App.css'
 import Navbar from './components/Navbar/Navbar.tsx'
 import { ThemeProvider } from './context/themeContext';
 import { BrowserRouter as Router, useRoutes } from 'react-router-dom';

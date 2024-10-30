@@ -6,8 +6,8 @@ function Projects() {
   return (
     <section id="course-section" className={!theme ? "bg-softGray" : "bg-softBlack" }>
       <article id="course-head">
-        <h2 className='text-orange font-bold'>Nuestros proyectos</h2>
-        <h3 className='text-Gray'>Conocé los proyectos colaborativos de nuestra comunidad</h3>
+        <h2 className='text-orange font-bold text-center'>Nuestros proyectos</h2>
+        <h3 className='text-Gray text-center'>Conocé los proyectos colaborativos de nuestra comunidad</h3>
       </article>
       <article id="courses">
         <div id="courses-list">
