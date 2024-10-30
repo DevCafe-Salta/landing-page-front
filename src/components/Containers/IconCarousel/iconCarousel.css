@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (min-width: 300px) and (max-width:768px) {
+    #dev-icons-container {
+        @apply w-full;
+        @apply flex;
+        @apply flex-nowrap;
+        @apply gap-x-8;
+        @apply items-center;
+        @apply overflow-x-scroll;
+        @apply scrollbar;
+        @apply scrollbar-thumb-[#747575];
+    }
+
+    #dev-icons-container #dev-icon {
+        @apply flex;
+        @apply flex-col;
+        @apply justify-center;
+    }
+
+    #dev-icons-container #dev-icon img {
+        @apply min-w-12;
+        @apply max-w-12;
+        @apply min-h-12;
+        @apply max-h-12;
+        @apply mx-auto;
+    }
+
+    #dev-icons-container #dev-icon p {
+        @apply font-bold;
+        @apply tracking-wider;
+    }
+}
+
+@media (min-width: 768px) and (max-width:1024px) {
+
+    #dev-icons-container {
+        @apply w-full;
+        @apply flex;
+        @apply flex-nowrap;
+        @apply gap-x-10;
+        @apply items-center;
+        @apply overflow-x-scroll;
+        @apply scrollbar;
+        @apply scrollbar-thumb-[#747575];
+    }
+
+    #dev-icons-container #dev-icon {
+        @apply flex;
+        @apply flex-col;
+        @apply justify-center;
+    }
+
+    #dev-icons-container #dev-icon img {
+        @apply min-w-12;
+        @apply max-w-12;
+        @apply min-h-14;
+        @apply max-h-14;
+        @apply mx-auto;
+    }
+
+    #dev-icons-container #dev-icon p {
+        @apply font-bold;
+        @apply tracking-wider;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    #dev-icons-container {
+        @apply w-full;
+        @apply flex;
+        @apply flex-nowrap;
+        @apply gap-x-10;
+        @apply items-center;
+        @apply overflow-x-scroll;
+        @apply scrollbar;
+        @apply scrollbar-thumb-[#747575];
+    }
+
+    #dev-icons-container #dev-icon {
+        @apply flex;
+        @apply flex-col;
+        @apply justify-center;
+    }
+
+    #dev-icons-container #dev-icon img {
+        @apply min-w-12;
+        @apply max-w-12;
+        @apply min-h-14;
+        @apply max-h-14;
+        @apply mx-auto;
+    }
+
+    #dev-icons-container #dev-icon p {
+        @apply font-bold;
+        @apply tracking-wider;
+    }
+}
