@@ -7,7 +7,6 @@
     #course-section {
         @apply w-full;
         @apply h-max;
-        @apply py-10;
     }
 
     #course-section #course-head h2 {
@@ -43,7 +42,6 @@
     #course-section {
         @apply w-full;
         @apply h-max;
-        @apply py-10;
     }
 
     #course-section #course-head h2 {
@@ -78,7 +76,6 @@
     #course-section {
         @apply w-full;
         @apply h-max;
-        @apply py-10;
     }
 
     #course-section #course-head h2 {
