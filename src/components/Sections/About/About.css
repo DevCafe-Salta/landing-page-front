@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+#about {
+    @apply w-full;
+    @apply mx-auto;
+    @apply pt-4
+}
+
+#about #about-headline-2 {
+    @apply text-3xl;
+    @apply font-bold; 
+    @apply text-orange; 
+    @apply sm:text-5xl;
+    @apply text-center;
+    @apply mb-2;
+}
+#about #about-headline-3 {
+    @apply text-2xl;
+    @apply sm:text-3xl; 
+    @apply font-semibold; 
+    @apply mb-4;
+    @apply text-center;
+}
+#about #about-paragraph {
+    @apply p-2;
+    @apply text-left; 
+    @apply sm:text-center;
+}
+
+#about #about-buttons-container {
+    @apply flex;
+    @apply flex-col; 
+    @apply text-center; 
+    @apply gap-4; 
+    @apply mx-auto; 
+    @apply justify-center; 
+    @apply items-center;
+    @apply lg:flex-row;
+}
+
+#about #about-buttons-container #about-button-1, 
+#about #about-buttons-container #about-button-2,
+#about #about-buttons-container #about-button-3 {
+    @apply flex; 
+    @apply p-4; 
+    @apply rounded-full; 
+    @apply justify-center; 
+    @apply items-center; 
+    @apply shadow; 
+    @apply gap-4; 
+    @apply w-72;
+}

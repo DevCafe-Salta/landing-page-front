@@ -25,7 +25,7 @@ function classNames(...classes: (string | boolean | undefined)[]): string {
 // Componente Navbar
 const Navbar: React.FC = () => {
   return (
-    <Disclosure as="nav" className="fixed top-0 left-0 w-full bg-transparent z-50">
+    <Disclosure as="nav" className="fixed top-0 left-0 w-full bg-transparent backdrop-blur-2xl z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

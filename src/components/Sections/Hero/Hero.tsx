@@ -1,16 +1,13 @@
-// import React from 'react';
-// import FondoDestok from '../../../../public/assets/images/Destok.gif';
-// import Mobile from '../../../../public/assets/images/Mobile.gif';
-import logo from '../../../../public/assets/other-assets/svg/common/dev-cafe-logo.svg';
+import logo from '/assets/other-assets/svg/common/dev-cafe-logo.svg';
 
 const Hero = () => {
   return (
     <div className="relative w-full h-screen">
       <div
         className={`absolute inset-0 bg-no-repeat bg-center transition-all duration-500
-          phone:bg-[url('../../../../public/assets/images/Mobile.gif')]
-          tablet:bg-[url('../../../../public/assets/images/Destok.gif')]
-          desktop:bg-[url('../../../../public/assets/images/Destok.gif')]`}
+          phone:bg-[url('/assets/images/Mobile.gif')]
+          tablet:bg-[url('/assets/images/Destok.gif')]
+          desktop:bg-[url('/assets/images/Destok.gif')]`}
         style={{
           backgroundSize: '150%',
           filter: 'blur(2px)',
