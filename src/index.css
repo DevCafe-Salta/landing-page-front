@@ -6,3 +6,70 @@
 html, body {
   @apply font-body;
 }
+
+
+/*CSS QUE UTILICE PARA SECCION EVENTOS*/
+
+.bg-devCafeBlack{
+  background-color: #131414;
+  ;
+}
+.font-w-700-devCafe{
+font-family: "Montserrat",sans-serif;
+font-size: 48px;
+font-weight: 700;
+line-height: 58.51px;
+text-align: center;
+
+}
+.orange-devCafe{
+    color: #DB4A2B;
+}
+.p-devCafe{
+font-family: "Montserrat",sans-serif;
+font-size: 1rem;
+text-align: center;
+line-height: 1.5rem;
+color:#E3E2DD ;
+font-weight: 300;
+}
+
+.pFont-devCafe{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 200;
+}
+.textColor-devCafe{
+    color: #E3E2DD;
+}
+
+.h3-devCafe{
+    color: #f1f1f1;
+
+}
+h2::after{
+    content: "";
+    background-color: #DB4A2B;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    height: 8px;
+    border-radius: 150px;
+    transform: translateX(34%);
+    margin-top:4px;
+
+}
+.font-montserrat{
+    font-family: "Montserrat",sans-serif;
+    font-weight: 600;
+}
+.font-monserrat-noW{
+    font-family: "Montserrat",sans-serif;
+}
+
+.bg-devCafe{
+    background-color: #DB4A2B;
+}
+
+.shadowButton{
+    box-shadow: 2px 2px 10px grey ;
+}
