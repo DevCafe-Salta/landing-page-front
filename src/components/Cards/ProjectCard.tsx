@@ -9,7 +9,6 @@ function ProjectCard() {
   const {theme} = useTheme();
   return (
     <>
-    <span id="course-container" className={!theme ? "bg-smokeGray" : "bg-[#212222]"}>
             <div id="img-project-name-container">
               <img src="/img/project-img.jpg" alt="project-img" id="project-img" className='w-full'/>
               <div id="project-name">
@@ -35,7 +34,6 @@ function ProjectCard() {
                   <p>GitHub</p>
                 </button>
               </div>
-          </span>
     </>
   )
 }

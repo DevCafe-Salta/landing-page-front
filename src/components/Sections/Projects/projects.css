@@ -99,8 +99,9 @@
         @apply mx-auto;
         @apply flex;
         @apply flex-wrap;
-        @apply justify-between;
-        @apply gap-x-4;
+        @apply justify-start;
+        @apply gap-x-8;
         @apply gap-y-16;
     }
+
 }

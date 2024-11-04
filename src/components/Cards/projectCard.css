@@ -186,6 +186,7 @@
         @apply max-w-[290px];
         @apply pb-8;
         @apply overflow-x-hidden;
+        @apply self-start;
         @apply rounded-[8px];
         @apply drop-shadow-sm;
         @apply shadow-[0_0_10px_rgb(61,61,61,0.25)];
