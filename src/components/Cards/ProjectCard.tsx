@@ -19,7 +19,7 @@ function ProjectCard() {
               </div>
             </div>
             <ul id="course-details"> 
-                <li id="course-detail-description" className={!theme ? 'text-Gray' : 'text-lightGray' }>Lorem ipsum dolor sit amet consectetur. Augue nisl pellentesque tincidunt sed vitae rhoncus. Nec nisi risus bibendum sit tristique odio. Leo justo hendrerit feugiat bibendum. Hendrerit risus id elementum dui aliquam amet facilisi egestas et.</li>
+                <li id="course-detail-description" className={!theme ? 'text-graySlate' : 'text-lightGray' }>Lorem ipsum dolor sit amet consectetur. Augue nisl pellentesque tincidunt sed vitae rhoncus. Nec nisi risus bibendum sit tristique odio. Leo justo hendrerit feugiat bibendum. Hendrerit risus id elementum dui aliquam amet facilisi egestas et.</li>
               <li className='px-10'>
                 <IconCarousel />
                 </li>

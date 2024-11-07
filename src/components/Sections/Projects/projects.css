@@ -52,7 +52,7 @@
     #course-section #course-head h3 {
         @apply mt-4;
         @apply text-wrap;
-        @apply text-[32px];
+        @apply text-3xl;
     }
 
     #course-section #courses {

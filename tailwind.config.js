@@ -30,12 +30,12 @@ export default {
         lg: "24px"
       },
       fontSize: {
-        "base": "16px",
-        xl: "20px",
-        "2xl": "24px",
-        "3xl": "30px",
-        "5xl": "48px",
-        "6xl": "60px"
+        "base": "1rem",
+        xl: "1.25rem",
+        "2xl": "1.5rem",
+        "3xl": "1.875rem",
+        "5xl": "3rem",
+        "6xl": "3.75rem"
       }
     },
   },

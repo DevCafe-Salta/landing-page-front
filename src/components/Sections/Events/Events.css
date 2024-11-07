@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
+
+#events {
+    @apply w-full;
+    @apply mx-auto;
+}
+
+#events #events-headline-2 {
+    @apply text-3xl;
+    @apply font-bold; 
+    @apply text-orange; 
+    @apply sm:text-5xl;
+    @apply text-center;
+    @apply mb-2;
+}
+
+#events #events-headline-3 {
+    @apply pb-2;
+    @apply text-center; 
+    @apply sm:text-3xl;
+
+}
+/* className="min-h-screen bg-devCafeBlack flex flex-col py-10 px-16" */
