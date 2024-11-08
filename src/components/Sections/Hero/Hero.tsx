@@ -35,7 +35,7 @@ const Hero = () => {
             <button className="px-8 py-2 text-lg sm:px-10 sm:text-xl bg-orange hover:border-graySlate text-white font-medium rounded-lg opacity-100 hover:opacity-80 transition duration-300">
               Uníte a nuestra comunidad
             </button>
-            <button className="px-6 py-2 text-lg sm:text-xl bg-gray-700 hover:bg-gray-800 text-white font-medium rounded-lg opacity-80 hover:opacity-100 hover:border-orange transition duration-300">
+            <button className="px-6 py-2 text-lg sm:text-xl bg-graySlate bg-opacity-50 hover:bg-graySlate text-white font-medium rounded-lg hover:opacity-100 hover:border-orange transition duration-300">
               Ver Eventos
             </button>
           </div>

@@ -25,7 +25,7 @@ function classNames(...classes: (string | boolean | undefined)[]): string {
 // Componente Navbar
 const Navbar: React.FC = () => {
   return (
-    <Disclosure as="nav" className="fixed top-0 left-0 w-full bg-transparent backdrop-blur-2xl z-50">
+    <Disclosure as="nav" className="fixed top-0 left-0 w-full bg-softBlack bg-opacity-30 backdrop-blur-2xl z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div className="relative flex h-16 items-center justify-between">
           <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -37,7 +37,7 @@ const Navbar: React.FC = () => {
               <XMarkIcon aria-hidden="true" className="hidden h-6 w-6 group-data-[open]:block" />
             </DisclosureButton>
           </div>
-          <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
+          <div className="flex flex-1 justify-center items-center sm:items-stretch sm:justify-between">
             <div className="flex flex-shrink-0 items-center">
               <img
                 alt="DevCafe"
@@ -53,7 +53,7 @@ const Navbar: React.FC = () => {
                     href={item.href}
                     aria-current={item.current ? 'page' : undefined}
                     className={classNames(
-                      item.current ? 'bg-orange-700 text-white' : 'text-orange-700 hover:bg-orange-700 hover:text-white',
+                      item.current ? 'bg-orange text-smokeGray p-4 rounded-sm' : ' text-smokeGray hover:bg-orange-700 hover:text-orange',
                       'rounded-md px-3 py-2 text-sm font-medium',
                     )}
                   >
