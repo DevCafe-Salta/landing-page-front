@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Disclosure, DisclosureButton, DisclosurePanel } from '@headlessui/react';
 import { Bars3Icon, XMarkIcon, SunIcon, MoonIcon} from '@heroicons/react/24/outline';
+import { useTheme } from '../../hooks/useTheme';
 
 // Definición de tipo para los elementos de navegación
 type NavigationItem = {
@@ -26,12 +27,7 @@ function classNames(...classes: (string | boolean | undefined)[]): string {
 const Navbar: React.FC = () => {
 
   //Funcion switch modo claro / oscuro
-  const [darkMode, setDarkMode] = useState(false); 
-
-  const toggleDarkMode = () => { 
-    setDarkMode(!darkMode);
-    document.documentElement.classList.toggle('dark', !darkMode); 
-  };
+  const {theme, toggleDarkTheme} = useTheme();
   return (
     <Disclosure as="nav" className="fixed top-0 left-0 w-full bg-softBlack bg-opacity-30 backdrop-blur-2xl z-50">
       <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
@@ -69,11 +65,11 @@ const Navbar: React.FC = () => {
                   </a>
                 ))}
                 <button
-                onClick={toggleDarkMode} 
+                onClick={toggleDarkTheme} 
                 className="rounded-full p-2 text-softGray hover:bg-orange-700 hover:text-smokeGray focus:outline-none"
                 aria-label="Toggle dark mode"
               >
-                {darkMode ? <SunIcon className="h-6 w-6" /> : <MoonIcon className="h-6 w-6" />}
+                {!theme ? <SunIcon className="h-6 w-6" /> : <MoonIcon className="h-6 w-6" />}
               </button>
               </div>
             </div>

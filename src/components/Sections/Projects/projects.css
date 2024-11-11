@@ -80,6 +80,9 @@
 
     #course-section #course-head h2 {
         @apply text-5xl;
+        @apply text-orange;
+        @apply text-center;
+        @apply font-bold;
     }
 
     #course-section #course-head h3 {
@@ -99,7 +102,7 @@
         @apply mx-auto;
         @apply flex;
         @apply flex-wrap;
-        @apply justify-center;
+        @apply justify-start;
         @apply gap-x-8;
         @apply gap-y-16;
     }
