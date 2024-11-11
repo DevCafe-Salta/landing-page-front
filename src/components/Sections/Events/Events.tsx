@@ -1,23 +1,21 @@
 import "./Events.css";
-import { useTheme } from "../../../hooks/useTheme";
 const Events = () => {
-  const { theme } = useTheme();
   return (
     <section id="events">
       <div className="w-4/5 mx-auto">
         <h2 id="events-headline-2">Eventos</h2>
         <h3
           id="events-headline-3"
-          className={!theme ? "text-graySlate" : "text-lightGray"}
+          className='text-graySlate dark:text-lightGray'
         >
           Conoce nuestros proximos eventos
         </h3>
         <div className="flex flex-col desktop:flex-row">
           <div className="flex flex-col desktop:w-1/2 p-6">
-            <h4 id="event-title" className={!theme ? "text-graySlate" : "text-lightGray"}>
+            <h4 id="event-title" className='text-graySlate dark:text-lightGray'>
               2do Cowork Day de la comunidad DevCafé Salta
             </h4>
-            <p className={!theme ? "text-graySlate" : "text-lightGray"}>
+            <p className='text-graySlate dark:text-lightGray'>
             El próximo 15 de noviembre del 2024 queremos invitarte a un día de coworking donde podrás trabajar, colaborar y compartir ideas en un ambiente productivo y motivador. Desde las 9:00 AM hasta las 18:30 PM, tendremos un espacio abierto para que puedas avanzar en tus proyectos, conocer a otras personas y generar nuevas conexiones (Capacidad máxima de 30 personas).
             </p>
             <div className="flex flex-col tablet:flex-row desktop:flex-row w-full mt-4 p-4 gap-2">
@@ -32,7 +30,7 @@ const Events = () => {
                       alt=""
                     />
                   </figure>
-                  <p className={!theme ? "text-graySlate font-bold" : "text-lightGray font-bold"}>Av. Sarmiento 760</p>
+                  <p className='text-graySlate dark:text-lightGray font-bold'>Av. Sarmiento 760</p>
                 </div> */}
                 <div className="flex items-center gap-4 phone:mx-auto">
                   <figure>
@@ -43,7 +41,7 @@ const Events = () => {
                       alt=""
                     />
                   </figure>
-                  <p className={!theme ? "text-graySlate font-bold" : "text-lightGray font-bold"}>15/11/2024</p>
+                  <p className='text-graySlate dark:text-lightGray font-bold'>15/11/2024</p>
                 </div>
                 <div className="flex items-center gap-4 phone:mx-auto">
                   <figure>
@@ -54,7 +52,7 @@ const Events = () => {
                       alt=""
                     />
                   </figure>
-                  <p className={!theme ? "text-graySlate font-bold" : "text-lightGray font-bold"}>09:00HS - 18:30HS</p>
+                  <p className='text-graySlate dark:text-lightGray font-bold'>09:00HS - 18:30HS</p>
                 </div>
               </div>
               <div className="basis-1/2 rounded-sm">
@@ -74,6 +72,7 @@ const Events = () => {
                 src="/assets/images/2do-cowork-img.webp"
                 alt=""
                 className="mx-auto rounded-sm"
+                aria-label="Cowork day, capacidad máxima de 30 personas"
               />
             </figure>
             {/* <button className="p-4 phone:p-2 phone:text-base bg-orange text-softGray rounded-sm text-2xl font-semibold">

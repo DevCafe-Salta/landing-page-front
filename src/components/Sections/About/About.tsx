@@ -1,23 +1,21 @@
 import "./About.css";
-import { useTheme } from "../../../hooks/useTheme";
 
 const About = () => {
-  const { theme } = useTheme();
   return (
-    <section className={!theme ? "bg-softGray" : "bg-softBlack"} id="about">
+    <section id="about">
       <div className="w-4/5 mx-auto">
         <h2 id="about-headline-2">Sobre Nosotros</h2>
         <div className="md:w-3/5 mx-auto mb-6">
           <p
             id="about-paragraph"
-            className={!theme ? "text-graySlate" : "text-lightGray"}
+            className='text-graySlate dark:text-lightGray'
           >
             ¡Bienvenido a DevCafé Salta! Acá encontrarás un lugar en donde conectar con otros desarrolladores, intercambiar ideas, resolver dudas, avanzar en tus proyectos y muchas cosas más. No importa si eres un principiente o un experto, todos aquí estamos para apoyarnos y crecer como desarrolladores ¡Nos alegra que te unas a nosotros! 
           </p>
         </div>
         <h3
           id="about-headline-3"
-          className={!theme ? "text-graySlate" : "text-lightGray"}
+          className='text-graySlate dark:text-lightGray'
         >
           ¡Sumáte a nuestra comunidad!
         </h3>
@@ -25,7 +23,7 @@ const About = () => {
             <a href="https://discord.gg/cYseMwpvJh" target="_blank">
             <div
                 id="about-button-1"
-                className={!theme ? "bg-softBlack" : "bg-graySlate"}
+                className='bg-softBlack dark:bg-graySlate'
             >
                 <figure className="flex-initial w-12 mr-auto sm:mx-auto">
                 <img
@@ -42,7 +40,7 @@ const About = () => {
           <a href="https://chat.whatsapp.com/Kxy7Kl87lWf0Ta1rhKdoE3" target="_blank">
             <div
                 id="about-button-2"
-                className={!theme ? "bg-softBlack" : "bg-graySlate"}
+                className='bg-softBlack dark:bg-graySlate'
             >
                 <figure className="flex-initial w-12 mr-auto sm:mx-auto">
                 <img
@@ -59,7 +57,7 @@ const About = () => {
           <a href="https://github.com/DevCafe-Salta" target="_blank">
             <div
                 id="about-button-3"
-                className={!theme ? "bg-softBlack" : "bg-graySlate"}
+                className='bg-softBlack dark:bg-graySlate'
             >
                 <figure className="flex-initial w-12 mr-auto sm:mx-auto">
                 <img
