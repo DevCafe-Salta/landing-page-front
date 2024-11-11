@@ -1,12 +1,8 @@
 import IconCarousel from '../Containers/IconCarousel/IconCarousel'
 import DevImageContainer from '../Containers/DevImgContainer/DevImageContainer';
 import './projectCard.css'
-import { useTheme } from '../../hooks/useTheme';
-
 
 function ProjectCard() {
-  // false = modo claro, true = modo oscuro
-  const {theme} = useTheme();
   return (
     <>
             <div id="img-project-name-container">
@@ -19,17 +15,17 @@ function ProjectCard() {
               </div>
             </div>
             <ul id="course-details"> 
-                <li id="course-detail-description" className={!theme ? 'text-graySlate' : 'text-lightGray' }>Lorem ipsum dolor sit amet consectetur. Augue nisl pellentesque tincidunt sed vitae rhoncus. Nec nisi risus bibendum sit tristique odio. Leo justo hendrerit feugiat bibendum. Hendrerit risus id elementum dui aliquam amet facilisi egestas et.</li>
+                <li id="course-detail-description" className='text-graySlate dark:text-lightGray'>Lorem ipsum dolor sit amet consectetur. Augue nisl pellentesque tincidunt sed vitae rhoncus. Nec nisi risus bibendum sit tristique odio. Leo justo hendrerit feugiat bibendum. Hendrerit risus id elementum dui aliquam amet facilisi egestas et.</li>
               <li className='px-10'>
                 <IconCarousel />
                 </li>
               </ul>
               <div id='btn-container'>
-                <button type='button' className={!theme ? 'bg-[#131414]' : 'bg-[#3D3D3D]'}>
+                <button type='button' className='dark:bg-[#131414] bg-[#3D3D3D]'>
                   <img src='/assets/other-assets/svg/common/quill_link-out.svg'/>
                   <p>Demo</p>
                 </button>
-                <button type='button' className={!theme ? 'bg-[#131414]' : 'bg-[#3D3D3D]'}>
+                <button type='button' className='dark:bg-[#131414] bg-[#3D3D3D]'>
                   <img src='/assets/other-assets/svg/social/github-logo.svg'/>
                   <p>GitHub</p>
                 </button>

@@ -1,21 +1,24 @@
 import Navbar from './components/Navbar/Navbar.tsx'
-import { ThemeProvider } from './context/themeContext';
 import { BrowserRouter as Router, useRoutes } from 'react-router-dom';
 import routes from './routes/routes.tsx';
+import { useTheme } from './hooks/useTheme.tsx';
+import { useEffect } from 'react';
 
 function AppRoutes() {
   return useRoutes(routes);
 }
 function App() {
+  const {theme} = useTheme();
 
+  useEffect(() => {
+    document.documentElement.classList.toggle('dark', theme);
+  },[theme])
   return (
     <>
-      <ThemeProvider>
       <Router>
         <Navbar />
         <AppRoutes />
       </Router>
-      </ThemeProvider>
     </>
   )
 }

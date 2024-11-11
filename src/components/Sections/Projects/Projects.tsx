@@ -1,8 +1,6 @@
-import { useTheme } from '../../../hooks/useTheme';
 import ProjectCard from '../../Cards/ProjectCard';
 import './projects.css'
 function Projects() {
-  const {theme} = useTheme();
   const projectsCards = [ 
     // esto luego cuando este el back, los componentes serán reutilizables
     // hardcodeo la key para evitar el error en consola
@@ -15,16 +13,16 @@ function Projects() {
     <ProjectCard key={7}/>
   ]
   return (
-    <section id="course-section" className={!theme ? "bg-softGray" : "bg-softBlack" }>
+    <section id="course-section">
       <article id="course-head">
-        <h2 className='text-orange font-bold text-center'>Nuestros proyectos</h2>
-        <h3 className={!theme ? "text-graySlate text-center" : "text-lightGray text-center"}>Estos son los proyectos colaborativos de nuestra comunidad</h3>
+        <h2>Nuestros proyectos</h2>
+        <h3 className='dark:text-lightGray text-center text-softBlack'>Estos son los proyectos colaborativos de nuestra comunidad</h3>
       </article>
       <article id="courses">
         <div id="courses-list">
           {projectsCards.map((card,index) => {
             return (
-            <span id="course-container" key={index} className={!theme ? "bg-smokeGray" : "bg-[#212222]"}>
+            <span id="course-container" key={index} className="bg-smokeGray dark:bg-[#212222]">
               {card}
             </span>
             )
