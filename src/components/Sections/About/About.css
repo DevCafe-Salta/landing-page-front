@@ -51,4 +51,6 @@
     @apply shadow; 
     @apply gap-4; 
     @apply w-72;
+    @apply drop-shadow-sm;
+    @apply shadow-[0_0_10px_rgb(19,20,20,0.25)];
 }

@@ -13,7 +13,7 @@ export const ThemeContext = createContext<ThemeContextType|undefined>(undefined)
 
 export const ThemeProvider:React.FC<ThemeProviderProps> = ({children}) => {
     // false = modo claro, true = modo oscuro.
-    const [theme, setTheme] = useState(false);
+    const [theme, setTheme] = useState(true);
     return (
         <ThemeContext.Provider value={{theme, setTheme}}>
             {children}

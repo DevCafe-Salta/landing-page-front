@@ -14,24 +14,16 @@ const Events = () => {
         </h3>
         <div className="flex flex-col desktop:flex-row">
           <div className="flex flex-col desktop:w-1/2 p-6">
-            <h4 className="text-3xl text-center p-4 underline decoration-orange font-semibold underline-offset-8 decoration-4">
-              Taller de testing con Python
+            <h4 id="event-title" className={!theme ? "text-graySlate" : "text-lightGray"}>
+              2do Cowork Day de la comunidad DevCafé Salta
             </h4>
-            <p className="text-graySlate">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
-              sapiente. Mollitia ducimus, incidunt deleniti quae illum nesciunt
-              iste fugiat eum, quisquam inventore veniam ipsum quas
-              consequuntur! Quis commodi officia dignissimos.
-              <br />
-              <br />
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat,
-              modi, voluptate cum odio maxime qui debitis doloribus consequuntur
-              incidunt molestias provident repudiandae dicta eligendi nemo
-              numquam odit, neque consectetur eaque.
+            <p className={!theme ? "text-graySlate" : "text-lightGray"}>
+            El próximo 15 de noviembre del 2024 queremos invitarte a un día de coworking donde podrás trabajar, colaborar y compartir ideas en un ambiente productivo y motivador. Desde las 9:00 AM hasta las 18:30 PM, tendremos un espacio abierto para que puedas avanzar en tus proyectos, conocer a otras personas y generar nuevas conexiones (Capacidad máxima de 30 personas).
             </p>
             <div className="flex flex-col tablet:flex-row desktop:flex-row w-full mt-4 p-4 gap-2">
               <div className="basis-1/2 phone:mx-auto">
-                <div className="flex items-center gap-4 phone:mx-auto">
+              {/* UBICACIÓN DEL EVENTO */}
+                {/* <div className="flex items-center gap-4 phone:mx-auto">
                   <figure>
                     <img
                       src="assets/other-assets/svg/common/location.svg"
@@ -40,8 +32,8 @@ const Events = () => {
                       alt=""
                     />
                   </figure>
-                  <p className="font-bold text-graySlate">Av. Sarmiento 760</p>
-                </div>
+                  <p className={!theme ? "text-graySlate font-bold" : "text-lightGray font-bold"}>Av. Sarmiento 760</p>
+                </div> */}
                 <div className="flex items-center gap-4 phone:mx-auto">
                   <figure>
                     <img
@@ -51,7 +43,7 @@ const Events = () => {
                       alt=""
                     />
                   </figure>
-                  <p className="font-bold text-graySlate">19/10/2024</p>
+                  <p className={!theme ? "text-graySlate font-bold" : "text-lightGray font-bold"}>15/11/2024</p>
                 </div>
                 <div className="flex items-center gap-4 phone:mx-auto">
                   <figure>
@@ -62,7 +54,7 @@ const Events = () => {
                       alt=""
                     />
                   </figure>
-                  <p className="font-bold text-graySlate">10:00HS - 13:00HS</p>
+                  <p className={!theme ? "text-graySlate font-bold" : "text-lightGray font-bold"}>09:00HS - 18:30HS</p>
                 </div>
               </div>
               <div className="basis-1/2 rounded-sm">
@@ -79,13 +71,16 @@ const Events = () => {
           <div className="flex flex-col justify-center items-center gap-8 desktop:w-1/2 p-8">
             <figure className="w-4/5 phone:w-full mx-auto text-center">
               <img
-                src="img/project-img.jpg"
+                src="/assets/images/2do-cowork-img.webp"
                 alt=""
                 className="mx-auto rounded-sm"
               />
             </figure>
-            <button className="p-4 phone:p-2 phone:text-base bg-orange text-softGray rounded-sm text-2xl font-semibold">
+            {/* <button className="p-4 phone:p-2 phone:text-base bg-orange text-softGray rounded-sm text-2xl font-semibold">
               Mas información
+            </button> */}
+            <button className="p-4 phone:p-2 phone:text-base bg-orange text-softGray opacity-30 rounded-sm text-2xl font-semibold">
+              No disponible
             </button>
           </div>
         </div>

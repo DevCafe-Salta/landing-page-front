@@ -12,9 +12,9 @@ type NavigationItem = {
 // Lista de navegación con tipo definido
 const navigation: NavigationItem[] = [
   { name: 'Sobre nosotros', href: '#about', current: false },
-  { name: 'Proyectos', href: '#proyecto', current: false },
-  { name: 'Eventos', href: '#eventos', current: false },
-  { name: '¡Sumate!', href: '#', current: true },
+  { name: 'Proyectos', href: '#course-section', current: false },
+  { name: 'Eventos', href: '#events', current: false },
+  { name: '¡Sumate!', href: '#about', current: true },
 ];
 
 // Función para unir clases condicionales
@@ -70,7 +70,7 @@ const Navbar: React.FC = () => {
                 ))}
                 <button
                 onClick={toggleDarkMode} 
-                className="rounded-full p-2 text-orange-400 hover:bg-orange-700 hover:text-white focus:outline-none"
+                className="rounded-full p-2 text-softGray hover:bg-orange-700 hover:text-smokeGray focus:outline-none"
                 aria-label="Toggle dark mode"
               >
                 {darkMode ? <SunIcon className="h-6 w-6" /> : <MoonIcon className="h-6 w-6" />}
@@ -90,8 +90,8 @@ const Navbar: React.FC = () => {
               href={item.href}
               aria-current={item.current ? 'page' : undefined}
               className={classNames(
-                item.current ? 'bg-gray-900 text-white' : 'text-orange-300 hover:bg-orange-700 hover:text-white',
-                'block rounded-md px-3 py-2 text-base font-medium',
+                item.current ? 'bg-orange text-softGray' : 'text-softGray hover:bg-orange-700 hover:text-orange',
+                'block rounded-md px-3 py-2 text-base font-medium text-center',
               )}
             >
               {item.name}

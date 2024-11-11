@@ -22,4 +22,16 @@
     @apply sm:text-3xl;
 
 }
+
+#events #event-title {
+    @apply text-3xl;
+    @apply phone:text-2xl;
+    @apply text-center; 
+    @apply p-4;
+    @apply underline; 
+    @apply decoration-orange; 
+    @apply font-semibold;
+    @apply underline-offset-8; 
+    @apply decoration-4;
+}
 /* className="min-h-screen bg-devCafeBlack flex flex-col py-10 px-16" */

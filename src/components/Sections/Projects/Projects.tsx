@@ -18,7 +18,7 @@ function Projects() {
     <section id="course-section" className={!theme ? "bg-softGray" : "bg-softBlack" }>
       <article id="course-head">
         <h2 className='text-orange font-bold text-center'>Nuestros proyectos</h2>
-        <h3 className='text-graySlate text-center'>Conocé los proyectos colaborativos de nuestra comunidad</h3>
+        <h3 className={!theme ? "text-graySlate text-center" : "text-lightGray text-center"}>Estos son los proyectos colaborativos de nuestra comunidad</h3>
       </article>
       <article id="courses">
         <div id="courses-list">

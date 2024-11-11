@@ -5,9 +5,9 @@ const Hero = () => {
     <div className="relative w-full h-screen">
       <div
         className={`absolute inset-0 bg-no-repeat bg-center transition-all duration-500
-          phone:bg-[url('/assets/images/Mobile.gif')]
-          tablet:bg-[url('/assets/images/Destok.gif')]
-          desktop:bg-[url('/assets/images/Destok.gif')]`}
+          phone:bg-[url('/assets/images/hero-background-phone.webp')]
+          tablet:bg-[url('/assets/images/hero-background-desktop.webp')]
+          desktop:bg-[url('/assets/images/hero-background-desktop.webp')]`}
         style={{
           backgroundSize: '150%',
           filter: 'blur(2px)',
@@ -32,12 +32,16 @@ const Hero = () => {
             Comunidad IT de la <br /> Provincia de <span className="text-orange">Salta</span>
           </h2>
           <div className="flex flex-col space-y-4">
-            <button className="px-8 py-2 text-lg sm:px-10 sm:text-xl bg-orange hover:border-graySlate text-white font-medium rounded-lg opacity-100 hover:opacity-80 transition duration-300">
-              Uníte a nuestra comunidad
-            </button>
-            <button className="px-6 py-2 text-lg sm:text-xl bg-graySlate bg-opacity-50 hover:bg-graySlate text-white font-medium rounded-lg hover:opacity-100 hover:border-orange transition duration-300">
-              Ver Eventos
-            </button>
+            <a href="#about">
+              <button className="px-8 py-2 text-lg sm:px-10 sm:text-xl bg-orange hover:border-graySlate text-white font-medium rounded-lg opacity-100 hover:opacity-80 transition duration-300">
+                Uníte a nuestra comunidad
+              </button>
+            </a>
+            <a href="#events">
+              <button className="w-full px-6 py-2 text-lg sm:text-xl bg-graySlate bg-opacity-50 hover:bg-graySlate text-white font-medium rounded-lg hover:opacity-100 hover:border-orange transition duration-300">
+                Ver Eventos
+              </button>
+            </a>
           </div>
         </div>
       </div>
