@@ -15,7 +15,7 @@ function Projects() {
   return (
     <section id="course-section">
       <article id="course-head">
-        <h2>Nuestros proyectos</h2>
+        <h2 className='text-orange font-bold text-center'>Nuestros proyectos</h2>
         <h3 className='dark:text-lightGray text-center text-softBlack'>Estos son los proyectos colaborativos de nuestra comunidad</h3>
       </article>
       <article id="courses">
