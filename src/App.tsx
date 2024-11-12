@@ -15,7 +15,7 @@ function App() {
   },[theme])
   return (
     <>
-      <Router>
+      <Router basename='/landing-page-front'>
         <Navbar />
         <AppRoutes />
       </Router>
