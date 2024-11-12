@@ -69,7 +69,7 @@ const Events = () => {
           <div className="flex flex-col justify-center items-center gap-8 desktop:w-1/2 p-8">
             <figure className="w-4/5 phone:w-full mx-auto text-center">
               <img
-                src="/assets/images/2do-cowork-img.webp"
+                src="assets/images/2do-cowork-img.webp"
                 alt=""
                 className="mx-auto rounded-sm"
                 aria-label="Cowork day, capacidad máxima de 30 personas"

@@ -6,7 +6,7 @@ function ProjectCard() {
   return (
     <>
             <div id="img-project-name-container">
-              <img src="/img/project-img.jpg" alt="project-img" id="project-img" className='w-full'/>
+              <img src="assets/images/project-img.jpg" alt="project-img" id="project-img" className='w-full'/>
               <div id="project-name">
                 <h4>Nombre del proyecto</h4>
                 <span id="dev-img-container">
@@ -22,11 +22,11 @@ function ProjectCard() {
               </ul>
               <div id='btn-container'>
                 <button type='button' className='dark:bg-[#131414] bg-[#3D3D3D]'>
-                  <img src='/assets/other-assets/svg/common/quill_link-out.svg'/>
+                  <img src='assets/other-assets/svg/common/quill_link-out.svg'/>
                   <p>Demo</p>
                 </button>
                 <button type='button' className='dark:bg-[#131414] bg-[#3D3D3D]'>
-                  <img src='/assets/other-assets/svg/social/github-logo.svg'/>
+                  <img src='assets/other-assets/svg/social/github-logo.svg'/>
                   <p>GitHub</p>
                 </button>
               </div>
