@@ -8,7 +8,7 @@ function ProjectCard() {
             <div id="img-project-name-container">
               <img src="assets/images/project-img.jpg" alt="project-img" id="project-img" className='w-full'/>
               <div id="project-name">
-                <h4>Nombre del proyecto</h4>
+                <h4>Landing Page Comunidad</h4>
                 <span id="dev-img-container">
                   <DevImageContainer />
                 </span>

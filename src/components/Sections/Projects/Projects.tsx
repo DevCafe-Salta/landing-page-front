@@ -5,12 +5,12 @@ function Projects() {
     // esto luego cuando este el back, los componentes serán reutilizables
     // hardcodeo la key para evitar el error en consola
     <ProjectCard key={1}/>,
-    <ProjectCard key={2}/>,
-    <ProjectCard key={3}/>,
-    <ProjectCard key={4}/>,
-    <ProjectCard key={5}/>,
-    <ProjectCard key={6}/>,
-    <ProjectCard key={7}/>
+    // <ProjectCard key={2}/>,
+    // <ProjectCard key={3}/>,
+    // <ProjectCard key={4}/>,
+    // <ProjectCard key={5}/>,
+    // <ProjectCard key={6}/>,
+    // <ProjectCard key={7}/>
   ]
   return (
     <section id="course-section">
