@@ -21,11 +21,11 @@ function ProjectCard() {
                 </li>
               </ul>
               <div id='btn-container'>
-                <button type='button' className='dark:bg-[#131414] bg-[#3D3D3D]'>
+                <button type='button' className='dark:bg-[#3D3D3D] bg-[#131414]'>
                   <img src='assets/other-assets/svg/common/quill_link-out.svg'/>
                   <p>Demo</p>
                 </button>
-                <button type='button' className='dark:bg-[#131414] bg-[#3D3D3D]'>
+                <button type='button' className='dark:bg-[#3D3D3D] bg-[#131414]'>
                   <img src='assets/other-assets/svg/social/github-logo.svg'/>
                   <p>GitHub</p>
                 </button>
