@@ -1,7 +1,6 @@
 import './iconCarousel.css'
 function IconCarousel() {
 
-    // Esto luego en los li se los puede hacer reutilizables
     return (
         <ul id="dev-icons-container">
             <li id="dev-icon">

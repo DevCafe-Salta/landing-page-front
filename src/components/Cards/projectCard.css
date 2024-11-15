@@ -13,7 +13,7 @@
           @apply drop-shadow-sm;
           @apply shadow-[0_0_10px_rgb(61,61,61,0.25)];
      }
-  
+
      #course-container #img-project-name-container {
           @apply h-[170px];
      }
@@ -21,250 +21,257 @@
      #course-container #img-project-name-container #project-img {
           @apply h-[170px];
      }
-  
+
      #course-container #img-project-name-container #project-name {
-      @apply relative;
-      @apply w-full;
-      @apply bottom-14;
-      @apply flex;
-      @apply flex-row;
-      @apply justify-between;
-      @apply items-center;
-      @apply gap-x-8;
+          @apply relative;
+          @apply w-full;
+          @apply bottom-14;
+          @apply flex;
+          @apply flex-row;
+          @apply justify-between;
+          @apply items-center;
+          @apply gap-x-8;
      }
-  
+
      #course-container #img-project-name-container #project-name h4 {
-      @apply w-[50%];
-      @apply text-left;
-      @apply font-semibold;
-      @apply text-[#E3E2DD];
-      @apply text-center;
-      @apply text-[16px];
-      @apply text-wrap;
+          @apply w-[50%];
+          @apply text-left;
+          @apply font-semibold;
+          @apply text-[#E3E2DD];
+          @apply text-center;
+          @apply text-[16px];
+          @apply text-wrap;
      }
-  
-     #course-container #img-project-name-container #project-name #dev-img-container{ 
-      @apply flex;
-      @apply flex-row;
-      @apply items-center;
+
+     #course-container #img-project-name-container #project-name #dev-img-container {
+          @apply flex;
+          @apply flex-row;
+          @apply items-center;
      }
-  
-     #course-container #course-details #course-detail-description{
-      @apply mt-2;
-      @apply mb-4;
-      @apply px-2;
-      @apply text-wrap;
-      @apply text-[16px];
-      @apply text-left;
+
+     #course-container #course-details #course-detail-description {
+          @apply mt-2;
+          @apply mb-4;
+          @apply px-2;
+          @apply text-wrap;
+          @apply text-[16px];
+          @apply text-left;
      }
-  
+
      #course-container #btn-container {
-      @apply mt-6;
-      @apply flex;
-      @apply flex-col;
-      @apply items-center;
+          @apply mt-6;
+          @apply flex;
+          @apply flex-col;
+          @apply items-center;
      }
-     
+
      #course-container #btn-container button {
-      @apply w-[80%];
-      @apply mx-auto;
-      @apply m-4;
-      @apply py-3;
-      @apply flex;
-      @apply justify-center;
-      @apply items-center;
-      @apply text-[#E3E2DD];
-      @apply rounded-full;
-      @apply drop-shadow-sm;
-      @apply shadow-[0_0_10px_rgb(19,20,20,0.25)];
+          @apply w-[80%];
+          @apply mx-auto;
+          @apply m-4;
+          @apply py-3;
+          @apply flex;
+          @apply justify-center;
+          @apply items-center;
+          @apply text-[#E3E2DD];
+          @apply rounded-full;
+          @apply drop-shadow-sm;
+          @apply shadow-[0_0_10px_rgb(19,20,20,0.25)];
      }
-  
+
      #course-container #btn-container button img {
-      @apply w-8;
-      @apply h-8;
-      @apply mr-2;
+          @apply w-8;
+          @apply h-8;
+          @apply mr-2;
      }
-  
+
      #course-container #btn-container button p {
-      @apply font-medium;
-      @apply text-[20px];
-      @apply font-body;
+          @apply font-medium;
+          @apply text-[20px];
+          @apply font-body;
      }
 }
 
 @media (min-width: 768px) and (max-width:1024px) {
-    
+
      #course-container {
-          @apply w-[45%];
+          @apply w-full;
           @apply max-w-[300px];
+          @apply col-span-6;
           @apply pb-8;
           @apply overflow-x-hidden;
+          @apply self-start;
           @apply rounded-[8px];
           @apply drop-shadow-sm;
           @apply shadow-[0_0_10px_rgb(61,61,61,0.25)];
      }
-  
+
      #course-container #img-project-name-container {
           @apply h-[170px];
      }
-  
+
      #course-container #img-project-name-container #project-name {
-      @apply relative;
-      @apply w-full;
-      @apply px-2;
-      @apply flex;
-      @apply bottom-[60px];
-      @apply flex-row;
-      @apply justify-between;
-      @apply items-center;
+          @apply relative;
+          @apply w-full;
+          @apply px-2;
+          @apply flex;
+          @apply bottom-[60px];
+          @apply flex-row;
+          @apply justify-between;
+          @apply items-center;
      }
-  
+
      #course-container #img-project-name-container #project-name h4 {
-      @apply w-[50%];
-      @apply font-semibold;
-      @apply text-[#E3E2DD];
-      @apply text-center;
-      @apply text-base;
-      @apply text-wrap;
+          @apply w-[50%];
+          @apply font-semibold;
+          @apply text-[#E3E2DD];
+          @apply text-center;
+          @apply text-base;
+          @apply text-wrap;
      }
-  
-     #course-container #img-project-name-container #project-name #dev-img-container{
-      @apply w-[50%];
-      @apply flex;
-      @apply flex-row;
-      @apply items-center;
+
+     #course-container #img-project-name-container #project-name #dev-img-container {
+          @apply w-[50%];
+          @apply flex;
+          @apply flex-row;
+          @apply items-center;
      }
-  
-     #course-container #course-details #course-detail-description{
-      @apply mt-2;
-      @apply mb-4;
-      @apply px-2;
-      @apply text-wrap;
-      @apply text-[16px];
-      @apply text-left;
+
+     #course-container #course-details #course-detail-description {
+          @apply mt-4;
+          @apply mb-4;
+          @apply px-2;
+          @apply text-wrap;
+          @apply text-[16px];
+          @apply text-left;
      }
-  
+
      #course-container #btn-container {
-      @apply mt-6;
-      @apply flex;
-      @apply flex-col;
-      @apply items-center;
+          @apply mt-6;
+          @apply flex;
+          @apply flex-col;
+          @apply items-center;
      }
-     
+
      #course-container #btn-container button {
-      @apply w-[80%];
-      @apply mx-auto;
-      @apply m-4;
-      @apply py-3;
-      @apply flex;
-      @apply justify-center;
-      @apply items-center;
-      @apply text-[#E3E2DD];
-      @apply rounded-full;
-      @apply drop-shadow-sm;
-      @apply shadow-[0_0_10px_rgb(19,20,20,0.25)];
+          @apply w-[80%];
+          @apply mx-auto;
+          @apply m-4;
+          @apply py-3;
+          @apply flex;
+          @apply justify-center;
+          @apply items-center;
+          @apply text-[#E3E2DD];
+          @apply rounded-full;
+          @apply drop-shadow-sm;
+          @apply shadow-[0_0_10px_rgb(19,20,20,0.25)];
      }
-  
+
      #course-container #btn-container button img {
-      @apply w-10;
-      @apply h-10;
-      @apply mr-2;
+          @apply w-10;
+          @apply h-10;
+          @apply mr-2;
      }
-  
+
      #course-container #btn-container button p {
-      @apply font-medium;
-      @apply text-[20px];
-      @apply font-body;
+          @apply font-medium;
+          @apply text-[20px];
+          @apply font-body;
      }
 
 }
 
 @media (min-width: 1024px) {
 
-    #course-container {
-        @apply w-[40%];
-        @apply max-w-[290px];
-        @apply pb-8;
-        @apply overflow-x-hidden;
-        @apply self-start;
-        @apply rounded-[8px];
-        @apply drop-shadow-sm;
-        @apply shadow-[0_0_10px_rgb(61,61,61,0.25)];
-   }
+     #course-container {
+          @apply w-full;
+          @apply max-w-[300px];
+          @apply col-span-4;
+          @apply pb-8;
+          @apply overflow-x-hidden;
+          @apply self-start;
+          @apply rounded-[8px];
+          @apply drop-shadow-sm;
+          @apply shadow-[0_0_10px_rgb(61,61,61,0.25)];
+     }
 
-   #course-container #img-project-name-container {
-        @apply h-[170px];
-   }
+     #course-container #img-project-name-container {
+          @apply max-h-[150px];
+     }
 
-   #course-container #img-project-name-container #project-name {
-    @apply relative;
-    @apply w-full;
-    @apply px-2;
-    @apply flex;
-    @apply bottom-[60px];
-    @apply flex-row;
-    @apply justify-between;
-    @apply items-center;
-   }
+     #course-container #img-project-name-container img {
+          @apply max-h-[150px];
+     }
 
-   #course-container #img-project-name-container #project-name h4 {
-    @apply w-[50%];
-    @apply text-left;
-    @apply font-semibold;
-    @apply text-[#E3E2DD];
-    @apply text-center;
-    @apply text-[20px];
-    @apply text-wrap;
-   }
 
-   #course-container #img-project-name-container #project-name #dev-img-container{
-    @apply w-[45%];
-    @apply flex;
-    @apply flex-row;
-    @apply items-center;
-   }
+     #course-container #img-project-name-container #project-name {
+          @apply relative;
+          @apply w-full;
+          @apply px-2;
+          @apply flex;
+          @apply bottom-[60px];
+          @apply flex-row;
+          @apply items-center;
+     }
 
-   #course-container #course-details #course-detail-description{
-    @apply mt-2;
-    @apply mb-4;
-    @apply px-2;
-    @apply text-wrap;
-    @apply text-[16px];
-    @apply text-left;
-   }
+     #course-container #img-project-name-container #project-name h4 {
+          @apply w-[150px];
+          @apply text-center;
+          @apply font-semibold;
+          @apply text-[#E3E2DD];
+          @apply text-left;
+          @apply text-[20px];
+          @apply text-wrap;
+          @apply line-clamp-2;
+     }
 
-   #course-container #btn-container {
-    @apply mt-6;
-    @apply flex;
-    @apply flex-col;
-    @apply items-center;
-   }
-   
-   #course-container #btn-container button {
-    @apply w-[80%];
-    @apply mx-auto;
-    @apply m-4;
-    @apply py-3;
-    @apply flex;
-    @apply justify-center;
-    @apply items-center;
-    @apply text-[#E3E2DD];
-    @apply rounded-full;
-    @apply drop-shadow-sm;
-    @apply shadow-[0_0_10px_rgb(19,20,20,0.25)];
-   }
+     #course-container #img-project-name-container #project-name #dev-img-container {
+          @apply w-[45%];
+          @apply flex;
+          @apply flex-row;
+          @apply items-center;
+     }
 
-   #course-container #btn-container button img {
-    @apply w-10;
-    @apply h-10;
-    @apply mr-2;
-   }
+     #course-container #course-details #course-detail-description {
+          @apply mt-2;
+          @apply mb-4;
+          @apply px-2;
+          @apply text-wrap;
+          @apply text-[16px];
+          @apply text-left;
+     }
 
-   #course-container #btn-container button p {
-    @apply font-medium;
-    @apply text-[20px];
-    @apply font-body;
-   }
+     #course-container #btn-container {
+          @apply mt-6;
+          @apply flex;
+          @apply flex-col;
+          @apply items-center;
+     }
+
+     #course-container #btn-container button {
+          @apply w-[80%];
+          @apply mx-auto;
+          @apply m-4;
+          @apply py-3;
+          @apply flex;
+          @apply justify-center;
+          @apply items-center;
+          @apply text-[#E3E2DD];
+          @apply rounded-full;
+          @apply drop-shadow-sm;
+          @apply shadow-[0_0_10px_rgb(19,20,20,0.25)];
+     }
+
+     #course-container #btn-container button img {
+          @apply w-10;
+          @apply h-10;
+          @apply mr-2;
+     }
+
+     #course-container #btn-container button p {
+          @apply font-medium;
+          @apply text-[20px];
+          @apply font-body;
+     }
 
 }
-

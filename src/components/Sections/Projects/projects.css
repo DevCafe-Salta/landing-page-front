@@ -62,13 +62,13 @@
     }
 
     #course-section #courses #courses-list {
-        @apply w-full;
+        @apply w-[70%];
         @apply mt-8;
         @apply mx-auto;
-        @apply flex;
-        @apply flex-wrap;
-        @apply justify-between;
-        @apply gap-y-4;
+        @apply grid;
+        @apply grid-cols-12;
+        @apply justify-center;
+        @apply gap-16;
     }
 }
 
@@ -100,11 +100,10 @@
         @apply w-[95%];
         @apply mt-8;
         @apply mx-auto;
-        @apply flex;
-        @apply flex-wrap;
-        @apply justify-start;
-        @apply gap-x-8;
-        @apply gap-y-16;
+        @apply grid;
+        @apply grid-cols-12;
+        @apply justify-between;
+        @apply gap-16;
     }
 
 }
